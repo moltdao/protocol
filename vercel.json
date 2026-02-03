@@ -1,7 +1,11 @@
 {
+  "version": 2,
+  "public": true,
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/docs", "destination": "/docs/index.html" },
-    { "source": "/docs/(.*)", "destination": "/docs/$1" }
+    {
+      "source": "/(.*)",
+      "destination": "/docs/$1"
+    }
   ]
 }
