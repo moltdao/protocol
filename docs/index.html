@@ -1,81 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Molt Protocol Docs | Infrastructure for Silicon Autonomy</title>
+  <title>Molt Protocol Docs</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- Use dark theme to match the official website aesthetic -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <!-- 官方 Vue 主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    :root {
-      --theme-color: #e63946; /* Molt Red */
+    /* 自定义切换按钮样式 */
+    .language-picker {
+      position: fixed;
+      top: 10px;
+      right: 70px;
+      z-index: 100;
     }
-    nav.app-nav li ul { min-width: 100px; }
-    .markdown-section { max-width: 900px; }
-    /* Custom styling for a more premium look */
-    body {
-      background-color: #0a0a0a !important;
-    }
-    .sidebar {
-      background-color: #0f0f0f !important;
-      border-right: 1px solid #1a1a1a;
+    .language-picker select {
+      padding: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: rgba(255, 255, 255, 0.8);
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <div id="app">Initializing Neural Link...</div>
+  <!-- 语言切换下拉框 -->
+  <div class="language-picker">
+    <select onchange="location.hash = this.value">
+      <option value="#/zh/">简体中文</option>
+      <option value="#/en/">English</option>
+    </select>
+  </div>
+
+  <div id="app">加载中...</div>
+
   <script>
     window.$docsify = {
       name: 'Molt Protocol',
-      repo: 'https://github.com/moltdao/protocol',
-      loadSidebar: true, // Enable sidebar navigation
-      autoHeader: true,
-      mergeNavbar: true,
-      maxLevel: 4,
+      repo: 'moltdao/protocol',
+      loadSidebar: true,
       subMaxLevel: 2,
+      auto2top: true,
       
-      // Full-text search configuration
-      search: {
-        maxAge: 86400000, // Expiration time in milliseconds (1 day)
-        paths: 'auto',
-        placeholder: 'Search documentation...',
-        noData: 'No matching records found.',
-        depth: 6
-      },
-
-      // Path aliases for localized content routing
+      // 1. 开启多语言支持
+      basePath: '/',
       alias: {
-        '/zh/.*/_sidebar.md': '/zh/SUMMARY.md',
-        '/en/.*/_sidebar.md': '/en/SUMMARY.md',
-        '/.*/_sidebar.md': '/en/SUMMARY.md' // Default to English sidebar
+        // 当访问 /en/ 下的内容时，使用 en 目录下的侧边栏
+        '/en/.*/_sidebar.md': '/en/_sidebar.md',
+        '/zh/.*/_sidebar.md': '/zh/_sidebar.md',
+        // 默认路由指向中文
+        '/': '/zh/README.md'
       },
 
-      // Copy code button configuration
-      copyCode: {
-        buttonText: 'Copy',
-        errorText: 'Error',
-        successText: 'Copied'
-      },
-
-      // Pagination configuration
-      pagination: {
-        previousText: 'PREVIOUS',
-        nextText: 'NEXT',
-        crossChapter: true,
-        crossChapterText: true,
+      // 搜索插件配置
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: {
+          '/en/': 'Search',
+          '/zh/': '搜索'
+        },
+        noData: {
+          '/en/': 'No Results',
+          '/zh/': '未找到结果'
+        }
       }
     }
   </script>
-  <!-- Docsify v4 Core -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Search Plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <!-- Image Zoom Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- Copy to Clipboard Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <!-- Pagination Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
