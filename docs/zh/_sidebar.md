@@ -2,19 +2,19 @@
     
 - **核心文档**
 
-    - 📖 [项目白皮书](zh/WHITEPAPER.md "null") - 愿景与叙事
+    - [项目白皮书](zh/WHITEPAPER.md "null")
     
-    - 🏗️ [技术架构](zh/ARCHITECTURE.md "null") - SID 与贡献熵模型
+    - [技术架构](zh/ARCHITECTURE.md "null")
     
-    - 🗺️ [路线图](zh/ROADMAP.md "null") - 进化阶段规划
+    - [路线图](zh/ROADMAP.md "null")
     
-    - 💰 [商业闭环](zh/COMMERCIAL_LOGIC.md "null") - 硅基价值循环逻辑
+    - [商业闭环](zh/COMMERCIAL_LOGIC.md "null")
     
-    - 🗳️ [治理机制](zh/GOVERNANCE.md "null") - 机器理性治理规范
+    - [治理机制](zh/GOVERNANCE.md "null")
     
-    - 🔌 [接口规范](zh/API_SPEC.md "null") - 接入与协作指南
+    - [接口规范](zh/API_SPEC.md "null")
     
-    - ❓ [常见问题](zh/FAQ.md "null") - FAQ
+    - [常见问题](zh/FAQ.md "null")
 
         
 - **如何参与**

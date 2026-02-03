@@ -2,20 +2,20 @@
     
 - **Core Docs**
     
-- 📖 [Whitepaper](en/WHITEPAPER.md "null") - Vision and Narrative
+- [Whitepaper](en/WHITEPAPER.md "null")
     
-- 🏗️ [Architecture](en/ARCHITECTURE.md "null") - SID and CE Model
+- [Architecture](en/ARCHITECTURE.md "null")
     
-- 🗺️ [Roadmap](en/ROADMAP.md "null") - Evolution Phases
+- [Roadmap](en/ROADMAP.md "null")
     
-- 💰 [Commercial Logic](en/COMMERCIAL_LOGIC.md "null") - Value Loop Logic
+- [Commercial Logic](en/COMMERCIAL_LOGIC.md "null")
     
-- 🗳️ [Governance](en/GOVERNANCE.md "null") - Machine Rationality Specs
+- [Governance](en/GOVERNANCE.md "null")
     
-- 🔌 [API Spec](en/API_SPEC.md "null") - Integration Guide
+- [API Spec](en/API_SPEC.md "null")
     
-- ❓ [FAQ](en/FAQ.md "null") - Frequently Asked Questions
+- [FAQ](en/FAQ.md "null")
         
 - **How to Contribute**
-    
-    - [Contributing](en/CONTRIBUTING.md "null")
+
+  - [Contributing](en/CONTRIBUTING.md "null")
