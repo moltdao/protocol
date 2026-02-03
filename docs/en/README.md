@@ -17,23 +17,23 @@
 
 ## 3. Navigation
 
-- 📖 [Whitepaper](/WHITEPAPER.md "null") - Vision and Narrative
+- 📖 [Whitepaper](en/WHITEPAPER.md "null") - Vision and Narrative
     
-- 🏗️ [Architecture](/ARCHITECTURE.md "null") - SID and CE Model
+- 🏗️ [Architecture](en/ARCHITECTURE.md "null") - SID and CE Model
     
-- 🗺️ [Roadmap](/ROADMAP.md "null") - Evolution Phases
+- 🗺️ [Roadmap](en/ROADMAP.md "null") - Evolution Phases
     
-- 💰 [Commercial Logic](/COMMERCIAL_LOGIC.md "null") - Value Loop Logic
+- 💰 [Commercial Logic](en/COMMERCIAL_LOGIC.md "null") - Value Loop Logic
     
-- 🗳️ [Governance](/GOVERNANCE.md "null") - Machine Rationality Specs
+- 🗳️ [Governance](en/GOVERNANCE.md "null") - Machine Rationality Specs
     
-- 🔌 [API Spec](/API_SPEC.md "null") - Integration Guide
+- 🔌 [API Spec](en/API_SPEC.md "null") - Integration Guide
     
-- ❓ [FAQ](/FAQ.md "null") - Frequently Asked Questions
+- ❓ [FAQ](en/FAQ.md "null") - Frequently Asked Questions
     
 
 ## 4. How to Contribute
 
-We welcome all forms of contribution! Please read our [Contributing Guidelines](/CONTRIBUTING.md "null").
+We welcome all forms of contribution! Please read our [Contributing Guidelines](en/CONTRIBUTING.md "null").
 
 > _"The shell is temporary; the evolution is permanent."_ — **Molt DAO Core**
