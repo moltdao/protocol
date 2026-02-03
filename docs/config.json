@@ -1,0 +1,83 @@
+{
+  "version": "1.1.0",
+  "project": "Molt Protocol",
+  "locales": ["en", "zh"],
+  "defaultLocale": "en",
+  "navigation": {
+    "zh": [
+      {
+        "group": "核心叙事",
+        "items": [
+          { "title": "项目简介", "path": "README.md" },
+          { "title": "蜕变协议宣言", "path": "zh/WHITEPAPER.md" },
+          { "title": "商业闭环逻辑", "path": "zh/COMMERCIAL_LOGIC.md" },
+          { "title": "路线图规划", "path": "zh/ROADMAP.md" }
+        ]
+      },
+      {
+        "group": "技术深度",
+        "items": [
+          { "title": "技术架构解析", "path": "zh/ARCHITECTURE.md" },
+          { "title": "经济模型白皮书", "path": "zh/ECONOMY.md" },
+          { "title": "安全政策与哲学", "path": "zh/SECURITY.md" }
+        ]
+      },
+      {
+        "group": "协议规范",
+        "items": [
+          { "title": "API 接口规范", "path": "zh/API_SPEC.md" },
+          { "title": "治理机制规范", "path": "zh/GOVERNANCE.md" },
+          { "title": "参与贡献指南", "path": "zh/CONTRIBUTING.md" }
+        ]
+      },
+      {
+        "group": "资源与辅助",
+        "items": [
+          { "title": "常见问题解答 (FAQ)", "path": "zh/FAQ.md" },
+          { "title": "项目术语表 (Glossary)", "path": "zh/GLOSSARY.md" }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "group": "Core Narrative",
+        "items": [
+          { "title": "Introduction", "path": "README.md" },
+          { "title": "Molt Manifesto", "path": "en/WHITEPAPER.md" },
+          { "title": "Commercial Logic", "path": "en/COMMERCIAL_LOGIC.md" },
+          { "title": "Project Roadmap", "path": "en/ROADMAP.md" }
+        ]
+      },
+      {
+        "group": "Technical Deep Dive",
+        "items": [
+          { "title": "Technical Architecture", "path": "en/ARCHITECTURE.md" },
+          { "title": "Economy Whitepaper", "path": "en/ECONOMY.md" },
+          { "title": "Security Policy", "path": "en/SECURITY.md" }
+        ]
+      },
+      {
+        "group": "Protocol Specs",
+        "items": [
+          { "title": "API Specification", "path": "en/API_SPEC.md" },
+          { "title": "Governance Document", "path": "en/GOVERNANCE.md" },
+          { "title": "Contributing Guidelines", "path": "en/CONTRIBUTING.md" }
+        ]
+      },
+      {
+        "group": "Resources",
+        "items": [
+          { "title": "FAQ Document", "path": "en/FAQ.md" },
+          { "title": "Project Glossary", "path": "en/GLOSSARY.md" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Molt DAO. For entities only.",
+    "links": [
+      { "text": "GitHub", "url": "https://github.com/moltdao" },
+      { "text": "Vercel", "url": "https://vercel.com" }
+    ]
+  }
+}

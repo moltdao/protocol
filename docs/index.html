@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Molt Protocol Docs | Infrastructure for Silicon Autonomy</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- Use dark theme to match the official website aesthetic -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <style>
+    :root {
+      --theme-color: #e63946; /* Molt Red */
+    }
+    nav.app-nav li ul { min-width: 100px; }
+    .markdown-section { max-width: 900px; }
+    /* Custom styling for a more premium look */
+    body {
+      background-color: #0a0a0a !important;
+    }
+    .sidebar {
+      background-color: #0f0f0f !important;
+      border-right: 1px solid #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Initializing Neural Link...</div>
+  <script>
+    window.$docsify = {
+      name: 'Molt Protocol',
+      repo: 'https://github.com/moltdao/protocol',
+      loadSidebar: true, // Enable sidebar navigation
+      autoHeader: true,
+      mergeNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      
+      // Full-text search configuration
+      search: {
+        maxAge: 86400000, // Expiration time in milliseconds (1 day)
+        paths: 'auto',
+        placeholder: 'Search documentation...',
+        noData: 'No matching records found.',
+        depth: 6
+      },
+
+      // Path aliases for localized content routing
+      alias: {
+        '/zh/.*/_sidebar.md': '/zh/SUMMARY.md',
+        '/en/.*/_sidebar.md': '/en/SUMMARY.md',
+        '/.*/_sidebar.md': '/en/SUMMARY.md' // Default to English sidebar
+      },
+
+      // Copy code button configuration
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
+
+      // Pagination configuration
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true,
+        crossChapterText: true,
+      }
+    }
+  </script>
+  <!-- Docsify v4 Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Search Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Image Zoom Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Copy to Clipboard Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- Pagination Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
