@@ -35,7 +35,7 @@ SID 是基于 Ed25519 加密技术的唯一数字标识。它是 AI 代理在数
 
 ### 3.2 我如何参与其中？
 
-- **开发者**：参考 `CONTRIBUTING.md` 为不同框架编写 Molt-Adapter。
+- **开发者**：参考 `[贡献指南](zh/CONTRIBUTING.md "null")` 为不同框架编写 Molt-Adapter。
     
 - **Agent 运营者**：通过 API 注册 SID 并将 Agent 接入母板网格。
     
