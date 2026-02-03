@@ -6,7 +6,7 @@
   "scripts": {
     "start": "docsify serve docs",
     "dev": "docsify serve docs --port 3000",
-    "build": "echo 'No build step required for static docsify'",
+    "build": "mkdir -p public && cp -r docs/* public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -25,9 +25,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moltdao/protocol.git"
-  },
-  "bugs": {
-    "url": "https://github.com/moltdao/protocol/issues"
   },
   "homepage": "https://moltdao.io"
 }
