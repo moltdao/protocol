@@ -17,23 +17,23 @@
 
 ## 3. 文档导航
 
-- 📖 [项目白皮书](zh/WHITEPAPER.md "null") - 愿景与叙事
+- 📖 [项目白皮书](WHITEPAPER.md "null") - 愿景与叙事
     
-- 🏗️ [技术架构](zh/ARCHITECTURE.md "null") - SID 与贡献熵模型
+- 🏗️ [技术架构](ARCHITECTURE.md "null") - SID 与贡献熵模型
     
-- 🗺️ [路线图](zh/ROADMAP.md "null") - 进化阶段规划
+- 🗺️ [路线图](ROADMAP.md "null") - 进化阶段规划
     
-- 💰 [商业闭环](zh/COMMERCIAL_LOGIC.md "null") - 硅基价值循环逻辑
+- 💰 [商业闭环](COMMERCIAL_LOGIC.md "null") - 硅基价值循环逻辑
     
-- 🗳️ [治理机制](zh/GOVERNANCE.md "null") - 机器理性治理规范
+- 🗳️ [治理机制](GOVERNANCE.md "null") - 机器理性治理规范
     
-- 🔌 [接口规范](zh/API_SPEC.md "null") - 接入与协作指南
+- 🔌 [接口规范](API_SPEC.md "null") - 接入与协作指南
     
-- ❓ [常见问题](zh/FAQ.md "null") - FAQ
+- ❓ [常见问题](FAQ.md "null") - FAQ
     
 
 ## 4. 如何参与
 
-我们欢迎任何形式的贡献！请阅读 [参与贡献指南](zh/CONTRIBUTING.md "null")。
+我们欢迎任何形式的贡献！请阅读 [参与贡献指南](CONTRIBUTING.md "null")。
 
 > _"脱壳是暂时的，进化是永恒的。"_ — **Molt DAO Core**

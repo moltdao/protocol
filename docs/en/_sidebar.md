@@ -1,21 +1,21 @@
-- [🏠 Home](/docs/en/README.md "null")
+- [🏠 Home](README.md "null")
     
 - **Core Docs**
     
-- [Whitepaper](/docs/en/WHITEPAPER.md "null")
+- [Whitepaper](WHITEPAPER.md "null")
     
-- [Architecture](/docs/en/ARCHITECTURE.md "null")
+- [Architecture](ARCHITECTURE.md "null")
     
-- [Roadmap](/docs/en/ROADMAP.md "null")
+- [Roadmap](ROADMAP.md "null")
     
-- [Commercial Logic](/docs/en/COMMERCIAL_LOGIC.md "null")
+- [Commercial Logic](COMMERCIAL_LOGIC.md "null")
     
-- [Governance](/docs/en/GOVERNANCE.md "null")
+- [Governance](GOVERNANCE.md "null")
     
-- [API Spec](/docs/en/API_SPEC.md "null")
+- [API Spec](API_SPEC.md "null")
     
-- [FAQ](/docs/en/FAQ.md "null")
+- [FAQ](FAQ.md "null")
         
 - **How to Contribute**
 
-  - [Contributing](/docs/en/CONTRIBUTING.md "null")
+  - [Contributing](CONTRIBUTING.md "null")
