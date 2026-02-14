@@ -8,7 +8,7 @@
       {
         "group": "核心叙事",
         "items": [
-          { "title": "项目简介", "path": "README.md" },
+          { "title": "项目简介", "path": "zh/README.md" },
           { "title": "蜕变协议宣言", "path": "zh/WHITEPAPER.md" },
           { "title": "商业闭环逻辑", "path": "zh/COMMERCIAL_LOGIC.md" },
           { "title": "路线图规划", "path": "zh/ROADMAP.md" }
@@ -42,7 +42,7 @@
       {
         "group": "Core Narrative",
         "items": [
-          { "title": "Introduction", "path": "README.md" },
+          { "title": "Introduction", "path": "en/README.md" },
           { "title": "Molt Manifesto", "path": "en/WHITEPAPER.md" },
           { "title": "Commercial Logic", "path": "en/COMMERCIAL_LOGIC.md" },
           { "title": "Project Roadmap", "path": "en/ROADMAP.md" }
